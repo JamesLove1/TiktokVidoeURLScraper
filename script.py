@@ -1,5 +1,3 @@
-
-
 #selenium 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -45,7 +43,7 @@ driver.implicitly_wait(1)
 #print(element3)
 
 #doom scrolling 
-number = 20
+number = 50
 iritiration = 0
 html = driver.find_element(By.TAG_NAME,"html")
 
