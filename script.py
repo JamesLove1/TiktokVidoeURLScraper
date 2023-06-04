@@ -1,8 +1,4 @@
-#%%
-from bs4 import BeautifulSoup
-import requests
-from urllib.request import urlopen
-import mechanicalsoup
+
 
 #selenium 
 from selenium import webdriver
@@ -75,6 +71,11 @@ for link in links:
 driver.close()
 
 
+#%%
+from bs4 import BeautifulSoup
+import requests
+from urllib.request import urlopen
+import mechanicalsoup
 
 #micanical soup 
 browser = mechanicalsoup.StatefulBrowser()
